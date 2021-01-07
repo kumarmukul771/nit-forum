@@ -94,8 +94,6 @@ const signup = async (req, res, next) => {
       port: 587,
       secure: false, // true for 465, false for other ports
       auth: {
-        user: "mkpubg771@gmail.com", // generated ethereal user
-        pass: "mukul3112", // generated ethereal password
       },
     });
 
