@@ -1,6 +1,7 @@
 .body_SidePanel{
-    height: 102vh;
+    height: 100vh;
 }
+
 .icon_SidePanel{
     display: flex;
     justify-content: center ;
