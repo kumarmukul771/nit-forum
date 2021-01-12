@@ -1,0 +1,9 @@
+.body_SidePanel{
+    height: 102vh;
+}
+
+.icon_SidePanel{
+    display: flex;
+    justify-content: center ;
+    margin-top: 35px;
+}

@@ -1,0 +1,15 @@
+.body_DoubtForm{
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.formBox_DoubtForm{
+    margin-top: 20px !important;
+}
+
+.submit_DoubtForm{
+    display: flex;
+    justify-content: center;
+}
