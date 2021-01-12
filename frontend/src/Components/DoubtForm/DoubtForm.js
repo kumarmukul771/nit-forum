@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Dropdown, Form } from "semantic-ui-react";
 import mime from "mime";
 import "./DoubtForm.css";
-// import {TravelerEffect} from 'react-background-animation';
 
 const branch = [
   { key: "cse", text: "Male", value: "male" },
@@ -82,8 +81,7 @@ class DoubtForm extends Component {
     const { value } = this.state;
     return (
       <Form className="body_DoubtForm">
-          {/* <TravelerEffect /> */}
-        <Form.Group widths="equal">
+        <Form.Group widths="equal" className="formBox_DoubtForm">
           <Form.Select
             fluid
             label="Domain"
@@ -107,18 +105,23 @@ class DoubtForm extends Component {
           search
           selection
           options={topicTags}
+          className="formBox_DoubtForm"
         />
 
         <Form.TextArea
           label="Doubt"
           placeholder="Tell us more about your doubt..."
+          className="formBox_DoubtForm"
         />
 
-        <Form.Button onClick={this.handleSubmit} color="twitter">Submit</Form.Button>
+        <div className="submit_DoubtForm">
+          <Form.Button onClick={this.handleSubmit} color="twitter">
+            Submit
+          </Form.Button>
+        </div>
       </Form>
     );
   }
 }
 
 export default DoubtForm;
-

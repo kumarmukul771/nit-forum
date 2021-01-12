@@ -1,0 +1,21 @@
+.body_Post {
+  min-height: 500px !important;
+  background-color: rgb(255, 255, 255) !important;
+  margin-top: 10px !important;
+}
+
+.profile_Post {
+  padding: 10px;
+}
+
+.avatar_Post {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.content_Post {
+  padding: 10px;
+  font-family: 'Josefin Sans', cursive;
+}
+
+/* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext"); */
