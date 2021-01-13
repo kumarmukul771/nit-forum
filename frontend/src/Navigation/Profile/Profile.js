@@ -28,7 +28,7 @@ class LandingPage extends Component {
             </Sticky>
           </Grid.Column>
 
-          <Grid.Column width="13">
+          <Grid.Column width="9">
             <ProfileHeader />
             
           </Grid.Column>
