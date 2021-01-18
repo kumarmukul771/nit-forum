@@ -8,13 +8,13 @@ import {
   Header,
   Image,
 } from "semantic-ui-react";
-import MetaPanel from "../../../Components/MetaPanel/MetaPanel";
-import MetaPanelLeaderBorad from "../../../Components/MetaPanel/MetaPanelLeaderBoard";
-import Post from "../../../Components/Post/Post";
-import SidePanel from "../../../Components/SidePanel/SidePanel";
-import "./LandingPage.css";
+import SidePanel from "../../Components/SidePanel/SidePanel";
+import MetaPanelLeaderBorad from "../../Components/MetaPanel/MetaPanelLeaderBoard";
+import "./NotificationPage.css";
+import MetaPanel from "../../Components/MetaPanel/MetaPanel";
+import Notification from '../../Components/Notification/Notification';
 
-class LandingPage extends Component {
+class NotificationPage extends Component {
   contextRef = createRef();
   componentDidMount() {}
   render() {
@@ -28,11 +28,7 @@ class LandingPage extends Component {
           </Grid.Column>
 
           <Grid.Column width="9">
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
+            <Notification />
           </Grid.Column>
 
           <Grid.Column width="4">
@@ -54,4 +50,4 @@ class LandingPage extends Component {
   }
 }
 
-export default LandingPage;
+export default NotificationPage;

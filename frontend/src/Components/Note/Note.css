@@ -1,0 +1,15 @@
+.body_Note{
+    min-height: 102vh;
+    background-color: white !important;
+    padding: 10px;
+}
+
+
+.formBox_Note{
+    margin-top: 20px !important;
+}
+
+.submit_Note{
+    display: flex;
+    justify-content: center;
+}

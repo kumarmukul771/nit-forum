@@ -34,12 +34,20 @@ class SidePanel extends Component {
           </Grid.Row>
           <Grid.Row>
             <div className="icon_SidePanel">
-              <Icon name="chart bar" size="big" />
+              <Icon
+                name="chart bar"
+                size="big"
+                onClick={() => this.props.history.push("/contribution")}
+              />
             </div>
           </Grid.Row>
           <Grid.Row>
             <div className="icon_SidePanel">
-              <Icon name="bell" size="big" />
+              <Icon
+                name="bell"
+                size="big"
+                onClick={() => this.props.history.push("/notification")}
+              />
             </div>
           </Grid.Row>
           <Grid.Row>
@@ -54,7 +62,21 @@ class SidePanel extends Component {
 
           <Grid.Row>
             <div className="icon_SidePanel">
-              <Icon name="sticky note" size="big" />
+              <Icon
+                name="sticky note"
+                size="big"
+                onClick={() => this.props.history.push("/note")}
+              />
+            </div>
+          </Grid.Row>
+
+          <Grid.Row>
+            <div className="icon_SidePanel">
+              <Icon
+                name="connectdevelop"
+                size="big"
+                onClick={() => this.props.history.push("/developers")}
+              />
             </div>
           </Grid.Row>
         </Grid.Column>

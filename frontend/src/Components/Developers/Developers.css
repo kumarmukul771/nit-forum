@@ -1,0 +1,12 @@
+.body_Developers{
+    background-color: white ;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    min-height: 100vh;
+}
+
+.card_Developers{
+    /* background-color: rgb(119, 203, 241) !important; */
+    max-height: 550px !important;
+}

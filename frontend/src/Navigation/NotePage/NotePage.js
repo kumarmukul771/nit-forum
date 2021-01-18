@@ -8,12 +8,13 @@ import {
   Header,
   Image,
 } from "semantic-ui-react";
-import DoubtForm from "../../../Components/DoubtForm/DoubtForm";
-import MetaPanel from "../../../Components/MetaPanel/MetaPanel";
-import SidePanel from "../../../Components/SidePanel/SidePanel";
-import "./DoubtFormPage.css";
+import DoubtForm from "../../Components/DoubtForm/DoubtForm";
+import MetaPanel from "../../Components/MetaPanel/MetaPanel";
+import Note from "../../Components/Note/Note";
+import SidePanel from "../../Components/SidePanel/SidePanel";
+import "./NotePage.css";
 
-class DoubtFormPage extends Component {
+class NotePage extends Component {
   contextRef = createRef();
 
   render() {
@@ -27,7 +28,7 @@ class DoubtFormPage extends Component {
           </Grid.Column>
 
           <Grid.Column width="9">
-            <DoubtForm />
+            <Note />
           </Grid.Column>
 
           <Grid.Column width="4">
@@ -41,4 +42,4 @@ class DoubtFormPage extends Component {
   }
 }
 
-export default DoubtFormPage;
+export default NotePage;

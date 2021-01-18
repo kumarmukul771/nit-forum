@@ -95,6 +95,7 @@ class DoubtForm extends Component {
             name="file"
             fluid
             onChange={this.addFile}
+            icon="image"
           />
         </Form.Group>
 
